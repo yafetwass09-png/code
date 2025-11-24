@@ -22,13 +22,13 @@ let colors= [
     "#3ce608ff",
     "#f0e008ff"
 ];
-let index = 1
+let indexx = 1
 function changebackground() {
-    index++
-    if (index >=colors.length){
-        index = 0;
+    indexx++
+    if (indexx >=colors.length){
+        indexx = 0;
     }
-    document.body.style.backgroundColor=colors[index]
+    document.body.style.backgroundColor=colors[indexx]
 }    
 
 function greetUser() {
@@ -49,4 +49,5 @@ function inpt() {
         else {
             answer.innerText="Please respond only with yes or no."
         }
+
  }    
