@@ -1,0 +1,117 @@
+body {
+    font-family: Arial;
+    margin: 0px;
+    background-color: #3ce608ff;
+    transition: background-color 0.5s ease;
+}
+h1{
+     text-align: center;
+     font-size: 35px;
+     margin-bottom: 20px;
+}
+img{
+    border-radius: 20px;
+    max-width: 90%;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+button{
+    padding: 15px 35px;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #006fd6;
+    color: white;
+    
+}
+.texthover:hover {
+    color: rgb(37, 119, 111) ;
+    transform: scale(1.03);
+}
+a{
+    display:block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #004a99;
+    transform: scale(1.03);
+}
+input {
+    padding: 10px;
+    width: 60%;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid #ffff;
+}
+header{
+    border-radius: 20px;
+    border: transparent turquoise;
+    align-items: center;
+}
+.bord {
+    border: black;
+    border-radius: 100%;
+}
+.centering-the-img {
+    display: block;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+.backbutton {
+    position: relative;
+    margin-top:0px;
+    margin-left: 0px;
+    background: aqua;
+    border:  red;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    size: 0px;
+    ;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown {
+    background-color: #008cff;
+    color: white;
+    padding: 10PX 15PX;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(57, 175, 165);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(8, 165, 238);
+}
+.dropdown a:hover{
+    background-color: rgb(57, 175, 165);;
+}
+.centering-the-image{
+    display: block;
+    margin-left: 40%;
+    margin-right: 15%;
+}
