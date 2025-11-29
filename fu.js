@@ -1,6 +1,7 @@
 let pic= [
     "ethio.jpg",
     "lal.jpg",
+    "ax.jpg",
     "fas.jpg"
 ];
 let number = 0
@@ -50,5 +51,6 @@ function inpt() {
         }
 
  }    
+
 
 
