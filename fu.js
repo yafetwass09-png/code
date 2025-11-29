@@ -1,5 +1,4 @@
 let pic= [
-    "ax.jpg",
     "ethio.jpg",
     "lal.jpg",
     "fas.jpg"
@@ -51,4 +50,5 @@ function inpt() {
         }
 
  }    
+
 
